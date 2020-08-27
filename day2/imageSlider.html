@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>GUVI | Zen Class Tasks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/day2/popper.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+
+    <link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="../css/homeStyle.css" rel='stylesheet' type='text/css' />
+    <style>
+        .carousel-inner img {
+          width: 100%;
+          height: 70%;
+        }
+        </style>
+</head>
+
+<body class="bg">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h3 class="masthead-brand">Guvi | Zen Tasks</h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link " href="../index.html">Home</a>
+                    <a class="nav-link" href="imageSlider.html">Sticky Notes</a>
+                    <a class="nav-link active" href="imageSlider.html">Image Slider</a>
+                </nav>
+            </div>
+        </header>
+
+        <main role="main" class="inner cover">
+            <div id="imgslide" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#imgslide" data-slide-to="0" class="active"></li>
+                  <li data-target="#imgslide" data-slide-to="1"></li>
+                  <li data-target="#imgslide" data-slide-to="2"></li>
+                </ul>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../images/image11.jpg" alt="Los Angeles">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/image2.jpg" alt="Chicago">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/image31.jpg" alt="New York">
+                  </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#imgslide" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#imgslide" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+        </main>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p style ="text-align: center;">  Designed by Prashant Gupta(<a href="https://github.com/codyprashant">@codyPrashant</a>)</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

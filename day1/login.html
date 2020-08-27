@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>GUVI | Zen Class Tasks</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link href="../css/style.css" rel='stylesheet' type='text/css' />
+
+	
+</head>
+
+<body>
+	<div class="bottom-grid">
+		<div class="links">
+			<ul class="links-unordered-list">
+				<li class="">
+					<a href="../index.html" class="">Home</a>
+				</li>
+				<li class="active">
+					<a href="login.html" class="">Login</a>
+				</li>
+				<li class="">
+					<a href="register.html" class="">Register</a>
+				</li>
+				<li class="">
+					<a href="tahomaText.html" class="">Tahoma text</a>
+				</li>
+				<li class="">
+					<a href="googleMaps.html" class="">Google Maps</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<h1>Sign In </h1>
+	<div class="w3ls-login box box--big">
+		<!-- form starts here -->
+		<form action="#" method="post">
+			<div class="agile-field-txt">
+				<label> Username</label>
+				<input type="text" name="name" placeholder="Enter User Name" required="" />
+			</div>
+			<div class="agile-field-txt">
+				<label> password</label>
+				<input type="password" name="password" placeholder="Enter Password" required="" id="password" />
+				<div class="agile_label">
+					<input id="check3" name="check3" type="checkbox" value="show password" onclick="myFunction()">
+					<label class="check" for="check3">Show password</label>
+				</div>
+			</div>
+			<div class="agile-field-txt">
+				<div class="agile-left">
+					<a href="register.html">Create Account</a>
+				</div>
+				<div class="agile-right">
+					<a href="#">forgot password?</a>
+				</div>
+				
+			</div>
+			<!-- script for show password -->
+			<script>
+				function myFunction() {
+					var x = document.getElementById("password");
+					if (x.type === "password") {
+						x.type = "text";
+					} else {
+						x.type = "password";
+					}
+				}
+			</script>
+			<!-- //end script -->
+			
+				<input type="submit" value="SIGN IN">
+		</form>
+	</div>
+
+	<div class="copy-wthree">
+		<p style ="text-align: center;">  Designed by Prashant Gupta(<a href="https://github.com/codyprashant">@codyPrashant</a>)</p>
+	</div>
+
+</body>
+</html>

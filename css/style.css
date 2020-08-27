@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Poiret One', cursive;
+   src: url(../css/fonts/PoiretOne-Regular.ttf);
+}
+
+* {
+    font-family: 'Poiret One', cursive;
+}
+
+
 ol,
 ul {
     list-style: none;
@@ -405,7 +415,6 @@ input:checked+.slider:before {
     line-height: 1.8;
     margin: 0 3vw;
 	bottom: 20px;
-    right: 0;
     font-weight: 600;
      text-shadow: 0px 0px 1px #000;
 }
