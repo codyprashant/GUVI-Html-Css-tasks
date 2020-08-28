@@ -312,7 +312,7 @@
 						<div id="bottom-wizard">
 							<button type="button" name="backward" class="backward">Prev</button>
 							<button type="button" name="forward" class="forward">Next</button>
-							<button type="submit" id = "finalSubmit" >Submit</button>
+							<button type="submit" name="process" class="submit"><a href="success.html">Submit</a></button>
 						</div>
 						<!-- /bottom-wizard -->
 					</form>
@@ -363,11 +363,6 @@
 
 	<!-- Wizard script -->
 	<script src="js/survey_func.js"></script>
-	<script type="text/javascript">
-		document.getElementById("finalSubmit").onclick = function () {
-			location.href = "success.html";
-		};
-	</script>
 </body>
 
 </html>
